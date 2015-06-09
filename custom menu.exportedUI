@@ -1,0 +1,24 @@
+<mso:cmd app="Word" dt="1" />
+<mso:customUI xmlns:x1="http://schemas.microsoft.com/office/2009/07/customui/macro" xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+    <mso:ribbon>
+        <mso:qat/>
+        <mso:tabs>
+            <mso:tab id="mso_c1.1F9881C2" label="Moodle" insertBeforeQ="mso:TabPageLayoutWord">
+            <mso:group id="mso_c2.1F9881C2" label="Fragen Hinzufügen" autoScale="true">
+                <mso:button idQ="x1:AddMultipleChoiceSetQ_6_1F9B38E0" label="All or Nothing" imageMso="Bullets" onAction="AddMultipleChoiceSetQ" visible="true"/>
+                <mso:button idQ="x1:AddFalseStatement_0_1F9B38E0" label="False Statement" imageMso="Delete" onAction="AddFalseStatement" visible="true"/>
+                <mso:button idQ="x1:AddTrueStatement_1_1F9B38E0" label="True Statement" imageMso="TagMarkComplete" onAction="AddTrueStatement" visible="true"/>
+                <mso:button idQ="x1:AddMissingWordQ_2_1F9B38E0" label="Missing Word" imageMso="BlackAndWhiteDontShow" onAction="AddMissingWordQ" visible="true"/>
+                <mso:button idQ="x1:AddShortAnswerQ_3_1F9B38E0" label="Short Answer" imageMso="ListMacros" onAction="AddShortAnswerQ" visible="true"/>
+                <mso:button idQ="x1:AddNumericalQ_4_1F9B38E0" label="Numerical" imageMso="EquationMatrixGallery" onAction="AddNumericalQ" visible="true"/>
+                <mso:button idQ="x1:AddMatchingQ_5_1F9B38E0" label="Matching" imageMso="HyperlinksVerify" onAction="AddMatchingQ" visible="true"/>
+                <mso:button idQ="x1:AddMultipleChoiceQ_7_1F9B38E0" label="Multiple Choice" imageMso="Bullets" onAction="AddMultipleChoiceQ" visible="true"/>
+            </mso:group>
+            <mso:group id="mso_c3.1F994030" label="Bearbeiten" autoScale="true">
+                <mso:button idQ="x1:MarkTrueAnswer_8_1F9B38E0" label="Mark True/False" imageMso="TagMarkComplete" onAction="MarkTrueAnswer" visible="true"/>
+                <mso:button idQ="x1:MarkBlankWord_9_1F9B38E0" label="Mark Blank" imageMso="BlackAndWhiteDontShow" onAction="MarkBlankWord" visible="true"/>
+            </mso:group>
+            </mso:tab>
+        </mso:tabs>
+    </mso:ribbon>
+</mso:customUI>

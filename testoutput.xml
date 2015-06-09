@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?><quiz><question type="multichoiceset">
+	<name>
+		<text>Insert Multiple Choice Set (All or Nothing) Question here</text>
+	</name>
+	<questiontext format="html">
+		<text>Insert Multiple Choice Set (All or Nothing) Question here</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>false</single>
+	<answer fraction="100">
+		<text>True answer</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>We don’t know!</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="100">
+		<text>True Answer too!</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="100">
+		<text>Maybee!</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="truefalse">
+	<name>
+		<text>True-false question: insert a TRUE statement here</text>
+	</name>
+	<questiontext format="html">
+		<text>True-false question: insert a TRUE statement here</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<answer fraction="100">
+		<text>true</text>
+		<feedback>
+			<text>
+			</text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>false</text>
+		<feedback>
+			<text>
+			</text>
+		</feedback>
+	</answer>
+</question>
+<question type="truefalse">
+	<name>
+		<text>True-false question: insert a FALSE statement here</text>
+	</name>
+	<questiontext format="html">
+		<text>True-false question: insert a FALSE statement here</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<answer fraction="100">
+		<text>true</text>
+		<feedback>
+			<text>
+			</text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>false</text>
+		<feedback>
+			<text>
+			</text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Insert Multiple Choice Question here</text>
+	</name>
+	<questiontext format="html">
+		<text>Insert Multiple Choice Question here</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>false</single>
+	<answer fraction="33.3333333333333">
+		<text>True</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="33.3333333333333">
+		<text>True 2</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="33.3333333333333">
+		<text>True 3</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="-50">
+		<text>False</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="-50">
+		<text>False 2</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+</quiz>
